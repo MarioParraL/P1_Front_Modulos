@@ -26,7 +26,7 @@ const Parrafo: FunctionComponent<Props> = (props) => {
             placeholder="Input de texto"
             class="rectangulo"
             onChange={(e) => {
-              texto.value = e.currentTarget.value;
+              texto.value = texto.value + e.currentTarget.value;
             }}
           />
         </div>
